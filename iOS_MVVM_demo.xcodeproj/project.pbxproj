@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		364C27DB252DB14E0079A001 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C27DA252DB14E0079A001 /* Constants.swift */; };
+		364C27DD252DB17B0079A001 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C27DC252DB17B0079A001 /* Utils.swift */; };
+		364C27E0252DB1BB0079A001 /* UIUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C27DF252DB1BB0079A001 /* UIUtility.swift */; };
+		364C27E4252DB2890079A001 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C27E3252DB2890079A001 /* ColorPalette.swift */; };
 		365C674F252D90D700103E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C674E252D90D700103E19 /* AppDelegate.swift */; };
 		365C6751252D90D700103E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C6750252D90D700103E19 /* SceneDelegate.swift */; };
 		365C6753252D90D700103E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C6752252D90D700103E19 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		364C27DA252DB14E0079A001 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		364C27DC252DB17B0079A001 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		364C27DF252DB1BB0079A001 /* UIUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtility.swift; sourceTree = "<group>"; };
+		364C27E3252DB2890079A001 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		365C674B252D90D700103E19 /* iOS_MVVM_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_MVVM_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		365C674E252D90D700103E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		365C6750252D90D700103E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364C27D1252DAF590079A001 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				364C27D9252DB1100079A001 /* common */,
+				364C27D8252DB0B80079A001 /* objc_bridginng_header */,
+				364C27D7252DB0920079A001 /* router */,
+				364C27D6252DAFC90079A001 /* localisation */,
+				364C27D5252DAFBC0079A001 /* repository */,
+				364C27D4252DAF9A0079A001 /* view_model */,
+				364C27D3252DAF920079A001 /* view */,
+				364C27D2252DAF730079A001 /* model */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		364C27D2252DAF730079A001 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		364C27D3252DAF920079A001 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				364C27E2252DB2210079A001 /* theme */,
+				364C27E1252DB1C30079A001 /* screens */,
+				364C27DE252DB1A00079A001 /* ui_utility */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		364C27D4252DAF9A0079A001 /* view_model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view_model;
+			sourceTree = "<group>";
+		};
+		364C27D5252DAFBC0079A001 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		364C27D6252DAFC90079A001 /* localisation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = localisation;
+			sourceTree = "<group>";
+		};
+		364C27D7252DB0920079A001 /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		364C27D8252DB0B80079A001 /* objc_bridginng_header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = objc_bridginng_header;
+			sourceTree = "<group>";
+		};
+		364C27D9252DB1100079A001 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				364C27DA252DB14E0079A001 /* Constants.swift */,
+				364C27DC252DB17B0079A001 /* Utils.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		364C27DE252DB1A00079A001 /* ui_utility */ = {
+			isa = PBXGroup;
+			children = (
+				364C27DF252DB1BB0079A001 /* UIUtility.swift */,
+			);
+			path = ui_utility;
+			sourceTree = "<group>";
+		};
+		364C27E1252DB1C30079A001 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		364C27E2252DB2210079A001 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				364C27E3252DB2890079A001 /* ColorPalette.swift */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
 		365C6742252D90D700103E19 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +206,7 @@
 		365C674D252D90D700103E19 /* iOS_MVVM_demo */ = {
 			isa = PBXGroup;
 			children = (
+				364C27D1252DAF590079A001 /* lib */,
 				365C674E252D90D700103E19 /* AppDelegate.swift */,
 				365C6750252D90D700103E19 /* SceneDelegate.swift */,
 				365C6752252D90D700103E19 /* ViewController.swift */,
@@ -259,9 +367,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364C27E4252DB2890079A001 /* ColorPalette.swift in Sources */,
+				364C27E0252DB1BB0079A001 /* UIUtility.swift in Sources */,
+				364C27DD252DB17B0079A001 /* Utils.swift in Sources */,
 				365C6753252D90D700103E19 /* ViewController.swift in Sources */,
 				365C674F252D90D700103E19 /* AppDelegate.swift in Sources */,
 				365C6751252D90D700103E19 /* SceneDelegate.swift in Sources */,
+				364C27DB252DB14E0079A001 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
