@@ -1,11 +1,11 @@
 # iOS_MVVM_demo
-## Baraka Portfolio - iOS Technical Assignment
+##Baraka Portfolio - iOS Technical Assignment
 
 This project implements a Portfolio Dashboard for the Baraka app using UIKit, MVVM architecture, and RxSwift. It showcases a user-friendly, modular UI with simulated live market updates.
 
 ---
 
-##Features
+#Features
 
 - Displays portfolio balance, P&L, and positions
 - Simulated live price updates
